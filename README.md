@@ -1,1 +1,2 @@
 # ECE-2112-PA2
+This repository contains the implementation for ECE 2112 - Experiment 2: Numerical Python (NumPy). It demonstrates vectorized array operations, array reshaping, statistical calculations, and Boolean filtering in Python without the use of standard loops or list comprehensions. Key tasks include normalizing a reproducible 5x5 random matrix, applying Boolean conditions to filter cubed integers divisible by 4, and selecting elements above the mean from a matrix of squared values, with all outputs verified and saved as binary .npy files.
