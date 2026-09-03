@@ -7,7 +7,7 @@ Code: `import numpy as np`
 
 The import numpy statement loads the NumPy library and its numerical functions into the notebook's runtime environment. Meanwhile, the as np part creates a standard shortcut alias, allowing all NumPy functions and data structures to be called using np. Instead of typing out numpy. repeatedly.
 
-# A. Reproducible Normalization Problem
+## A. Reproducible Normalization Problem
 
 Create a 5x5 matrix of reproducible random integers between 10 and 100, normalize its values using its mean and standard deviation, and save the output array.
 
@@ -19,7 +19,7 @@ Example: `X_normalized.mean()` and `X_normalized.std()`
 
 For example, checking `X_normalized.mean()` returns `0.0` and `X_normalized.std()` returns `1.0`, confirming the matrix has been centered around zero with unit variance before saving it as `"X_normalized.npy"`.
 
-B. Cubes Divisible by 4 Problem
+## B. Cubes Divisible by 4 Problem
 
 Create an array of the first 100 positive integers, cube each value, reshape it into a 10x10 matrix, extract all elements divisible by 4 using Boolean indexing, and save the filtered array.  
 
@@ -29,7 +29,7 @@ The first section generates integers from 1 to 100 using `np.arange(1, 101)`, co
 
 Example: `div_by_4 `and `np.save("div_by_4.npy", div_by_4)`. 
 
-C. Above-Mean Squares Problem
+## C. Above-Mean Squares Problem
 
 Create a 6x6 matrix containing the squares of the first 36 positive integers, calculate its overall mean, filter for elements strictly greater than the mean, and save the filtered array.  
 
